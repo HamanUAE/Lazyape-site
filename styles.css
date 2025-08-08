@@ -31,7 +31,7 @@ html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font-family:
   position:absolute;inset:0;
   background:
     linear-gradient(180deg, rgba(0,0,0,.45), rgba(0,0,0,.55)),
-    url('assets/lazyape_bg.jpg') center/cover no-repeat;
+    url('lazyape_bg.jpg') center/cover no-repeat;
 }
 .hero__inner{position:relative;z-index:2;padding:6rem 0 2rem}
 .hero h1{font-size:clamp(2rem,5vw,3.8rem);margin:0 0 .6rem;font-family:"Space Grotesk",Inter,sans-serif}
@@ -70,3 +70,4 @@ small{color:#99a3aa}
 
 .hide-sm{display:none}
 @media (min-width:640px){.hide-sm{display:inline}}
+Fix image path
